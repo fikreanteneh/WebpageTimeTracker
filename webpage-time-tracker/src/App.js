@@ -1,13 +1,17 @@
-import './App.css';
+/* eslint-disable no-undef */
+import { useEffect, useState } from 'react';
+import Popup from './popup';
 
-function App() {
+// import './App.css';
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        Yesssssssssss
-      </header>
-    </div>
-  );
-}
+    <>
+      <Popup />
+    </>
+  )
+
+
+};
 
 export default App;
