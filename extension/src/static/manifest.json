@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Webpage Time Tracker",
+    "description": "Webpage Time Tracker",
+    "version": "1.0.0",
+    "action" : {
+        "default_popup": "popup.html",
+        "default_title": "Webpage Time Tracker",
+        "default_icon" : "icon.png"
+    },
+    "permissions": ["storage", "scripting", "activeTab", "background", "tabs"],
+    "icons": {
+        "16" : "icon.png",
+        "48" : "icon.png",
+        "128" : "icon.png"
+    },
+    "dashboard_page": "dashboard.html",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["contentScript.js"]
+        }
+    ]
+}
