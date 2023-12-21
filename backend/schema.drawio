@@ -1,0 +1,118 @@
+<mxfile host="65bd71144e">
+    <diagram id="pmYiRyPsiCOrsdq2Bha-" name="Page-1">
+        <mxGraphModel dx="745" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Session" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="20" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Tracker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="60" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=-0.009;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Daily" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Weakly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="140" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="25">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Monthly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=-0.002;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="13" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Yearly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="530" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Site" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="100" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ID: Date&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;Date: Time&lt;br&gt;data: [Start - End]&lt;br&gt;Stat&lt;br&gt;AggStat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="270" y="40" width="110" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b&gt;ID: Week-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;AggStat&lt;br&gt;Monday&lt;br&gt;Tuesday&lt;br&gt;AggMonday&lt;br&gt;AggTuesday" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="150" width="90" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;b&gt;ID: Month-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;AggStat&lt;br&gt;Sep&lt;br&gt;Oct&lt;br&gt;AggSep&lt;br&gt;AggOct" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="340" width="100" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;b&gt;ID: Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;AggStat&lt;br&gt;2023&lt;br&gt;2024&lt;br&gt;Agg2023&lt;br&gt;Agg2024" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="530" width="70" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;entryX=-0.009;entryY=0.387;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="30" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Daily" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="410" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=none;html=1;" edge="1" parent="1" source="32" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Weakly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="260" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34" target="43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Monthly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="400" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;" edge="1" parent="1" source="36" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Quarterly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="480" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;ID: Date&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;Date: Time&lt;br&gt;data: [Site, Start - End]&lt;br&gt;Stat:&amp;nbsp;&lt;br&gt;AggStat&lt;br&gt;SiteStat: Map&amp;lt;Site, time&amp;gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="130" width="180" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;b&gt;ID: Week-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;SiteStat: Map&amp;lt;Site, time&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="270" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;b&gt;ID: Week-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;SiteStat: Map&amp;lt;Site, time&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="380" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;b&gt;ID: Week-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;SiteStat: Map&amp;lt;Site, time&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="490" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;html=1;" edge="1" parent="1" source="48" target="49">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="HalfYear" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="600" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;b&gt;ID: Week-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;SiteStat: Map&amp;lt;Site, time&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="565" y="610" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;" edge="1" parent="1" source="51" target="52">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Yearly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="435" y="690" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;b&gt;ID: Week-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;SiteStat: Map&amp;lt;Site, time&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="570" y="700" width="170" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;" edge="1" parent="1" source="54" target="55">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="AllTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="425" y="800" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="&lt;b&gt;ID: Week-Year&lt;/b&gt;&lt;br&gt;Date&lt;br&gt;Stat&lt;br&gt;SiteStat: Map&amp;lt;Site, time&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="810" width="170" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
